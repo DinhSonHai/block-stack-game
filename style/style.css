@@ -43,15 +43,16 @@ canvas {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  h1 {
-    letter-spacing: 6px;
-  }
+}
 
-  button {
-    outline: none;
-    border: 2px solid white;
-    color: white;
-    background: transparent;
-    padding: 8px 34px;
-  }
+.start h1 {
+  letter-spacing: 6px;
+}
+
+.start button {
+  outline: none;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  padding: 8px 34px;
 }
