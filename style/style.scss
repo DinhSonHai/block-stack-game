@@ -19,6 +19,7 @@ body {
     #c31432
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
+  text-transform: uppercase;
 }
 
 canvas {
@@ -47,6 +48,7 @@ canvas {
   align-items: center;
   h1 {
     letter-spacing: 6px;
+    font-size: 3em;
   }
 
   button {
@@ -56,22 +58,30 @@ canvas {
     background: transparent;
     padding: 8px 34px;
   }
+
+  button:hover {
+    transform: scale(0.95);
+  }
+
+  button:active {
+    transform: scale(0.85);
+  }
 }
 
 .score {
   width: 100%;
-  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-self: center;
-  color: white;
   z-index: 10;
 
   h2 {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    color: white;
+    margin-top: 8px;
   }
 }

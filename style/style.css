@@ -61,18 +61,18 @@ canvas {
 
 .score {
   width: 100%;
-  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-self: center;
-  color: white;
   z-index: 10;
 }
 
 h2 {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+  color: white;
+  margin-top: 8px;
 }
